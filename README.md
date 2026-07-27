@@ -10,7 +10,11 @@
 
 ![BoredPowerMD — demo](docs/BoredPowerMD-demo.gif)
 
-<p align="center"><em>Proyecto de ejemplo «Nimbus»: listas de tareas entre programadores, LaTeX, diagramas Mermaid, exportar a PDF/ZIP y modo claro/oscuro.</em><br>▶️ <a href="docs/BoredPowerMD-demo.mp4">Ver el video en MP4</a></p>
+<p align="center">
+▶️ <strong><a href="docs/BoredPowerMD-demo.mp4">Ver el recorrido completo (1 min, MP4)</a></strong><br>
+<em>Con un proyecto de ejemplo «Nimbus»: crear carpetas y notas, buscar al vuelo, editar en Markdown,<br>
+listas de tareas entre programadores, LaTeX, diagramas Mermaid, personalizar colores, exportar a PDF/ZIP y modo claro/oscuro.</em>
+</p>
 
 ---
 
