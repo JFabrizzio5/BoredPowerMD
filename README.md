@@ -21,6 +21,75 @@
 
 ---
 
+## 📸 Capturas
+
+<!-- Coloca tus capturas en docs/screenshots/ y descomenta -->
+<!-- ![Vista de wiki](docs/screenshots/wiki.png) -->
+<!-- ![Documento con diagramas y LaTeX](docs/screenshots/render.png) -->
+<!-- ![Modo oscuro](docs/screenshots/dark.png) -->
+
+> _Añade capturas en `docs/screenshots/` para verlas aquí._
+
+---
+
+## 🎬 Ejemplos de lo que soporta
+
+BoredPowerMD renderiza tus `.md` con todo esto (y GitHub lo muestra igual aquí abajo):
+
+### Diagramas Mermaid (UML, flujo, secuencia)
+
+```mermaid
+flowchart LR
+    U[Usuario] -->|abre proyecto| App
+    App -->|invoke| Rust[(Backend Rust)]
+    Rust -->|archivos .md| App
+    App -->|render| V[Markdown + Mermaid + LaTeX]
+```
+
+```mermaid
+sequenceDiagram
+    Usuario->>App: Exportar PDF
+    App->>Rust: read_file (docs)
+    Rust-->>App: contenido
+    App-->>Usuario: HTML autocontenido → imprimir
+```
+
+### Fórmulas LaTeX (KaTeX)
+
+En línea: la complejidad $O(n \log n)$ y la identidad $E = mc^2$.
+
+En bloque:
+
+$$
+\int_{0}^{\infty} e^{-x^2}\,dx = \frac{\sqrt{\pi}}{2}
+\qquad
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$
+
+### Tablas, código y checklists
+
+| Formato | Soportado | Notas |
+|---|:---:|---|
+| Markdown | ✅ | vista + editor |
+| Mermaid | ✅ | UML, flujo, secuencia |
+| LaTeX / KaTeX | ✅ | en línea y bloque |
+| HTML | ✅ | visor + abrir en navegador |
+| PDF / imágenes | ✅ | visor integrado |
+
+```ts
+// resaltado de sintaxis
+async function exportPdf(dest: string) {
+  const html = await buildSelfContainedDoc();
+  await writeFile(dest, html);
+}
+```
+
+- [x] Casillas interactivas que guardan su estado en el `.md`
+- [x] Imágenes locales (incluso con espacios en el nombre)
+- [ ] Tu próxima idea aquí
+
+---
+
 ## 📥 Descargar (usuarios)
 
 Ve a la pestaña **[Releases](../../releases)** y descarga el instalador para tu sistema:
