@@ -6,6 +6,14 @@
 
 ---
 
+## 🎬 Demo
+
+![BoredPowerMD — demo](docs/BoredPowerMD-demo.gif)
+
+<p align="center"><em>Proyecto de ejemplo «Nimbus»: listas de tareas entre programadores, LaTeX, diagramas Mermaid, exportar a PDF/ZIP y modo claro/oscuro.</em><br>▶️ <a href="docs/BoredPowerMD-demo.mp4">Ver el video en MP4</a></p>
+
+---
+
 ## ✨ Características
 
 - **Wiki por proyecto** — apunta a tu carpeta raíz (ej. `~/Documents/GitHub`) y cada subcarpeta se vuelve un proyecto navegable.
@@ -23,12 +31,14 @@
 
 ## 📸 Capturas
 
-<!-- Coloca tus capturas en docs/screenshots/ y descomenta -->
-<!-- ![Vista de wiki](docs/screenshots/wiki.png) -->
-<!-- ![Documento con diagramas y LaTeX](docs/screenshots/render.png) -->
-<!-- ![Modo oscuro](docs/screenshots/dark.png) -->
+**Markdown con listas de tareas y LaTeX**
+![Vista de documento con checklist y LaTeX](docs/screenshots/render.png)
 
-> _Añade capturas en `docs/screenshots/` para verlas aquí._
+**Diagramas Mermaid**
+![Diagrama Mermaid de flujo de eventos](docs/screenshots/mermaid.png)
+
+**Modo oscuro**
+![Modo oscuro](docs/screenshots/dark.png)
 
 ---
 
