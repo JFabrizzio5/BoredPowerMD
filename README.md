@@ -12,8 +12,9 @@
 
 <p align="center">
 ▶️ <strong><a href="docs/BoredPowerMD-demo.mp4">Ver el recorrido completo con narración (MP4)</a></strong><br>
-<em>Proyecto de ejemplo «Nimbus»: crear carpetas y notas, buscar al vuelo, escribir en Markdown (con vista previa en vivo),<br>
-listas de tareas del equipo, LaTeX, diagramas Mermaid, personalizar colores, exportar a PDF (con previsualización) o ZIP, y modo claro/oscuro.</em>
+<em>Proyecto de ejemplo «Nimbus»: crear carpetas y notas, buscar al vuelo, Markdown en vivo con imágenes,<br>
+diagramas <b>UML</b> (Mermaid) y <b>HTML</b>, listas de tareas del equipo, LaTeX, personalizar colores,<br>
+exportar a PDF (con previsualización) o ZIP, e integración con <b>Claude</b> para que la IA entienda tus proyectos.</em>
 </p>
 
 ---
